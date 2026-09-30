@@ -2,11 +2,12 @@
 
 PocketPulse includes the Android app source and the public static website and admin status page.
 
-## Website and admin portal
+## Live links
 
-The repository root contains the website (`index.html`) and the admin status page (`admin.html`). The admin page is a public, read-only pre-launch status page; it contains no private user records. App download and usage figures are not connected yet. The current app is not published on Google Play, so there are no Play Store install counts to display.
+- Website: https://pocketpulse01-code.github.io/pocketpulse-app/
+- Public admin portal: https://pocketpulse01-code.github.io/pocketpulse-app/admin.html
 
-To preview locally, open `index.html` or `admin.html` in a browser. To host the site on GitHub Pages, enable Pages in the repository settings and deploy from the `main` branch root.
+The admin page is a public, read-only pre-launch status page; it contains no private user records. The app has not been released on Google Play, so the reported download count is 0. Live account and usage metrics are not connected.
 
 ## Android app
 
@@ -17,4 +18,4 @@ The Android project is in `android/` and uses package ID `com.pocketpulse.app`.
 3. Review and deploy `android/firestore.rules` to the matching Firebase project.
 4. Build in Android Studio, or run `gradlew.bat assembleDebug` from `android/` on Windows.
 
-This repository does not include signing keys, local SDK paths, build outputs, or Firebase configuration credentials. The app has not been released on Google Play.
+This repository does not include signing keys, local SDK paths, build outputs, or Firebase configuration credentials.
